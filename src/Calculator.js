@@ -17,6 +17,8 @@ function Calculator({ workouts, allowSound }) {
     sound.play();
   };
 
+  console.log(playSound);
+
   return (
     <>
       <form>
